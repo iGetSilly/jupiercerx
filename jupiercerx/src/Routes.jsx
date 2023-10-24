@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-domgitl";
 import React from "react";
 import App from "./App";
 import Produto from "./components/Produto/Produto";

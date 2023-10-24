@@ -1,0 +1,86 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    max-width: 1520px;
+
+    margin: 0 auto;
+
+    z-index: 5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 80px;
+    z-index: -2;
+
+}
+
+.logo_img {
+    position: relative;
+    top: 75px;
+    z-index: -2;
+}
+
+.logo h1 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+nav {
+    display: flex;
+    min-width: 300px;
+    max-width: 1520px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    min-width: 300px;
+    max-width: 1520px;
+}
+.flex li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.search_img {
+    padding: 0px 20px;
+    height: 25px;
+}
+
+.input_search {
+    width: 323px;
+    height: 80px;
+    background-color: $pink;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+
+#txtsearch::placeholder {
+    opacity: 0.5;
+}
+
+.elementoComposicao1 {
+    top: 100px;
+    left: 0;
+    width: 550px;
+    position: absolute;
+    z-index: -1;
+}
+
+.elementoComposicao2 {
+    width: 350px;
+    top: 500px;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}

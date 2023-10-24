@@ -1,0 +1,36 @@
+.carousel {
+    min-width: 300px;
+    max-width: 1520px;
+    min-height: 350px;
+    max-height: 100vh;
+
+    z-index: 2;
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+
+.carousel h2 {
+    position: absolute;
+    top: 135px;
+    margin-left: 435px;
+    
+}
+.carousel h1 {
+    top: 135px;
+    margin-left: 85px;
+    position: absolute;
+}
+
+.style_btn {
+    position: absolute;
+    top: 250px;
+    margin-left: 660px;
+    padding: 10px;
+    background-color: $green;
+    outline: none;
+    border: none;
+    color: white;
+    min-width: 200px;
+    max-width: 300px;
+}

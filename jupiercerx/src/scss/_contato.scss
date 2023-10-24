@@ -1,0 +1,74 @@
+.contato {
+  flex-wrap: wrap;
+  width: 1520px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.contato_h1 {
+  font-size: 48px;
+  font-weight: 500;
+  width: 1520px;
+  margin-bottom: 150px;
+}
+
+.info_contato {
+  width: 760px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.form_contato {
+  flex-wrap: wrap;
+  width: 760px;
+}
+
+.div_form {
+    width: 380px;
+    margin: 20px 0px;
+}
+.div_form_2 {
+    width: 760px;
+    margin: 20px 0px;
+}
+
+.form_height {
+  height: 50px;
+  border: 2px solid $pink;
+}
+
+.form_height:hover {
+  border: 2px solid $green;
+}
+
+.form_width_2 {
+  width: 680px;
+  border: 2px solid $pink;
+}
+
+.form_width_2:hover{
+  border: 2px solid $green;
+
+}
+
+.contato_btn {
+  width: 175px;
+  height: 50px;
+  background-color: $green;
+  border: none;
+}
+
+.contato_btn:hover {
+  background-color: $pink;
+  cursor: pointer;
+  border: 1px solid $violet;
+}
+
+.google_maps {
+  width: 1520px;
+  height: 800px;
+  border: none;
+  margin-top: 150px;
+  border: 2px solid $pink;
+}

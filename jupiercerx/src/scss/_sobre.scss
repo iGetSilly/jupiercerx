@@ -1,0 +1,30 @@
+.sobre {
+    width: 1520px;
+    height: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.sobre h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.sobre_mini_containers {
+    min-width: 760px;
+    max-width: 760px;
+    min-height: 500px;
+    max-height: 500px;
+    background-color: white;
+}
+
+.pd_all_sobre {
+    padding: 50px;
+}
+
+.margin_all_sobre {
+    margin: 20px;
+}

@@ -1,0 +1,44 @@
+.container_produto {
+  max-width: 1520px;
+  min-width: 420px;
+
+  max-height: 100%;
+  min-height: 273px;
+
+  margin: 0 auto;
+
+  // margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.produto_view {
+  display: none;
+
+  position: absolute;
+  bottom: 76.5px;
+
+  width: 360px;
+  height: 100px;
+
+  background-color: $green;
+  
+  
+}
+
+.produto_view a {
+  text-decoration: none;
+  color: #000;
+}
+
+.produto:hover .produto_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.prod_preco {
+  color: $green;
+}

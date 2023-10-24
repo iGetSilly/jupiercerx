@@ -1,0 +1,48 @@
+.footer {
+    width: 1520px;
+    height: 600px;
+}
+
+.contatos {
+    padding-bottom: 20px;
+}
+
+.lista_contato li {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.lista_contato li a {
+    text-decoration: none;
+    color: $black;
+}
+
+.lista_contato li:hover a {
+    text-decoration: none;
+    color: $pink;
+
+}
+
+.safety_container {
+    padding-right: 20px;
+}
+
+.safety {
+    padding-bottom: 20px;
+}
+.safety p {
+    padding-left: 20px;
+}
+
+.endereco {
+    width: 600px;
+}
+.endereco p{
+    padding-bottom: 20px;
+}
+
+.pay_methods {
+    padding-top: 20px;
+}

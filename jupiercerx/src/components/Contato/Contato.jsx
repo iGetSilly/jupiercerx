@@ -11,15 +11,15 @@ function Contato() {
         <h1 className="contato_h1 flex center">Contato</h1>
         <div className="info_contato">
           <div className="flex center_align">
-            <img src="src\assets\map-pin.svg" className="pd-right" alt="" />
+            <img src="src\assets\map-pin.svg" className=" info_img" alt="" />
             CLN 311, Bloco C, Subsolo, Loja 22 - Brasília, DF - CEP: 70757530{" "}
           </div>
           <div className="flex center_align">
-            <img src="src\assets\phone.svg" className="pd-right" alt="" />
+            <img src="src\assets\phone.svg" className=" info_img" alt="" />
             (61) 98357‑2280
           </div>
           <div className="flex center_align">
-            <img src="src\assets\mail.svg" className="pd-right" alt="" />
+            <img src="src\assets\mail.svg" className=" info_img" alt="" />
             juguimaraesbp@gmail.com
           </div>
           <div>

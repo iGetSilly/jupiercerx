@@ -8,21 +8,21 @@ function Footer() {
               <a href="/contato">Contato</a>
             </li>
             <li>
-              <a href="">Envios e devoluções</a>
+              <a href="/envios-e-devolucoes">Envios e devoluções</a>
             </li>
             <li>
-              <a href="">Política da loja</a>
+              <a href="/politicas-da-loja">Política da loja</a>
             </li>
           </ul>
           <ul className="lista_contato">
             <li>
-              <a href="">Facebook</a>
+              <a href="https://www.facebook.com/juguimaraesbp" target="_blank">Facebook</a>
             </li>
             <li>
-              <a href="">Instagram</a>
+              <a href="https://www.instagram.com/jupiercerx/?igshid=YWJhMjlhZTc%3D" target="_blank">Instagram</a>
             </li>
             <li>
-              <a href="">Whatsapp</a>
+              <a href="https://api.whatsapp.com/message/N5RJEWE7DQ7OI1?autoload=1&app_absent=0" target="_blank">Whatsapp</a>
             </li>
           </ul>
         </div>

@@ -5,6 +5,9 @@ import Produto from "./components/Produto/Produto";
 import Loja from "./components/Loja/Loja";
 import Sobre from "./components/Sobre/Sobre";
 import Contato from "./components/Contato/Contato";
+import Envios_devolocoes from "./components/Envios_devolucoes/Envios_devolucoes";
+import Politica from "./components/Politica/Politica";
+
 
 const AppRoutes = () => {
   return (
@@ -14,6 +17,8 @@ const AppRoutes = () => {
       <Routes><Route path="/loja" element={<Loja/>}></Route></Routes>
       <Routes><Route path="/sobre" element={<Sobre/>}></Route></Routes>
       <Routes><Route path="/contato" element={<Contato/>}></Route></Routes>
+      <Routes><Route path="/envios-e-devolucoes" element={<Envios_devolocoes/>}></Route></Routes>
+      <Routes><Route path="/politicas-da-loja" element={<Politica/>}></Route></Routes>
     </Router>
   );
 };

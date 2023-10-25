@@ -9,6 +9,8 @@
 @import "scss/loja";
 @import "scss/sobre";
 @import "scss/contato";
+@import "scss/envios_devolucoes";
+@import "scss/politica";
 
 
 @font-face {
@@ -26,6 +28,10 @@
 
 body{
     background: $white-gradient;;
+}
+
+.position_logo {
+    position: absolute;
 }
 
 // container config do carousel
@@ -82,6 +88,21 @@ body{
     font-size: 36px;
 }
 
+// Containers com o da politica e devolucoes 
+
+.container_verde {
+    width: 1520px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: $green;
+    padding: 50px;
+}
+
+.espacamento {
+    padding: 0 300px;
+}
+
 // paddings
 
 .pd-left {
@@ -89,4 +110,8 @@ body{
 }
 .pd-right {
     padding-right: 12.5px;
+}
+
+.pd-updown20 {
+    padding: 20px 0;
 }

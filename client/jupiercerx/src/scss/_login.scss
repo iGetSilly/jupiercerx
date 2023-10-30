@@ -1,0 +1,41 @@
+.login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.login_form_group {
+  padding: 20px;
+}
+
+.form_field {
+  padding: 20px;
+  border: 2px solid $pink;
+}
+
+.form_error {
+  display: flex;
+  color: red;
+  margin-top: 5px;
+}
+
+.password_form_group {
+    padding: 20px;
+}
+
+.button_login {
+  border: 2px solid $pink;
+  cursor: pointer;
+
+  margin: 20px;
+  padding: 10px 50px;
+}
+
+.button_login:hover {
+  background-color: $pink;
+  border: 2px solid $white;
+  color: white;
+}
